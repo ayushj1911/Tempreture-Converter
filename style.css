@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+}
+
+.container{
+    width: 750px;
+    height: 250px;
+    background-color: #b0dde7;
+    margin: 12% auto;
+    padding: 25px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    border-radius: 5px;
+}
+
+input{
+    width: 180px;
+    height: 50px;
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 35px;
+    background-color: black;
+    color: #b0dde7;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px #ffffff;
+}
+
+label{
+    font-size: 20px;
+}
